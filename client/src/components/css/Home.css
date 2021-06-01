@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+#name{
+    background-color: black;
+    width: fit-content;
+    margin: 2rem auto;
+    color: white;
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-transform: capitalize;
+    padding: 5px 3vw;
+}
+#optionFlex{
+    padding: 9vh 00px;
+    padding-top: 4vh;
+    
+}
+.options{
+    height:30vh;
+    padding:0vw 2vw;
+    margin: 4vh 0vh;
+}
+.button{
+    text-align: center;
+    margin: 1vh;
+}
+.div{
+    height: 100%;
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(211, 57, 57);
+    text-align: center;
+    border-radius: 3vh;
+    padding: 2vh 0vh;
+}
+.div:hover{
+    background-color: rgb(214, 88, 88);
+    cursor: pointer;
+}
+
+.marginGive{
+    display: flex;
+    justify-content: center;
+}
+#hi{
+    font-family: 'Merienda', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+#welcom2blogger{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Merienda', cursive;
+    margin-bottom: 8vh;
+
+}
+.homeimage{
+    width: 80%;
+    border-radius: 1rem;
+}
+.homecenter{
+    display: flex;
+    justify-content: center;
+}
+.hometext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid black;
+    
+}
+.homeheadin{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 2rem;
+}
+#finalverdict{
+    text-align: center;
+}
+#homepublicpost{
+    padding: 4vh 1vw;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 2.6rem;
+    margin: 4vh 4vw;
+    border-bottom: 2px solid black;
+}
+.gridhomw{
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+.gridhomw>button{
+    margin: 0vh 2vw 10vh 2vw;
+}
+a{
+    border-bottom: 1px solid black;
+}
+#error404{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}

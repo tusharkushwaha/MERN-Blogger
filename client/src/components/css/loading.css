@@ -1,0 +1,23 @@
+#loadingContainer{
+    background-color: whitesmoke;
+    height:86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#percentage{
+    width: 95%;
+    border: 2px solid rgb(54, 49, 49);
+    height: 2vh;
+    border-radius: 2rem;
+}
+#percentage>div{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(40, 192, 40);
+    height: 100%;
+}

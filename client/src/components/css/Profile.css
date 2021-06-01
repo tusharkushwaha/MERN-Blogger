@@ -1,0 +1,45 @@
+#profileDiv{
+  background-color: #5698fc;
+    text-align: center;
+    width: 90%;
+    margin: 0.1vh auto;
+    padding: 3vh 4vw;
+    border-radius:  2rem;
+    font-weight: bold;
+
+}
+#profileImgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 3vw;
+}
+#profile_username{
+  font-weight: bold;
+}
+#profileBio{
+  color: white;
+  border: 1px solid rgb(19, 18, 18);
+  background-color: rgb(31, 27, 27);
+  border-radius: 0.4rem;
+  text-align: center;
+  padding: 0.1rem;
+}
+#profileImgDiv>img{
+    border-radius: 10rem;
+}
+#profilebuttonm{
+  padding-top: 4vh;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

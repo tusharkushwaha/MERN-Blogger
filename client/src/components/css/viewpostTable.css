@@ -1,0 +1,49 @@
+#viewpostTable{
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: white;
+    background-color: rgb(246 10 43);
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;  
+    padding: 0;
+    margin: 0;
+}
+#tableTitle{
+    text-align: center;
+}
+#tableContainer{
+background-color: rgba(0, 0, 0, 0.904);
+padding: 1vh 1vw;
+margin: 2vh 0;
+border-radius: 1rem;
+color: rgba(255, 255, 255, 0.925);
+}
+#tableflex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+#tableflex>div>span{
+    margin-right: 1vw;
+}
+
+.editico{
+    color: rgba(255, 255, 255, 0.925);
+}
+#tableDate{
+    font-size: 0.7rem;
+}
+#emptypost{
+    font-size: 1.6rem;
+    height: 60vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

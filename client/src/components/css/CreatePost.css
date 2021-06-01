@@ -1,0 +1,14 @@
+.cretepost{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.cretepost>form>div>input{
+    width: 95%;
+}
+.cretepost>form>div>textarea{
+    width: 95%;
+}
+#alertDiv{
+    display: flex;
+    justify-content: center;
+}

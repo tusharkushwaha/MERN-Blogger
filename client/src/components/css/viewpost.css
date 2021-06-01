@@ -1,0 +1,28 @@
+#copylink{
+    position: absolute;
+    left: -999em;
+}
+.viewpostMid>div{
+    text-align: center;
+}
+#viewpostMidTitle{
+    background-color: rgba(0, 0, 0, 0.932);
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 0.6vh;
+    border-radius: 1rem;
+    padding: 1vh 1vh;
+}
+#viewpostMidDate{
+    font-size: 0.9rem;
+}
+#viewpostMidBody{
+    margin: 4vh 1vw;
+    padding: 3vh 1vw;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#viewpostalert{
+    display: flex;
+    justify-content: center;
+}
